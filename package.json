@@ -7,7 +7,8 @@
     "test": "echo \"Tests may be run via scripts test:es5 and test:es6 individually.\"",
     "test:es5": "jasmine-ts \"./tsconfig.spec.es5.json\" --config=\"./test/jasmine.json\"",
     "test:es6": "jasmine-ts \"./tsconfig.spec.es6.json\" --config=\"./test/jasmine.json\"",
-    "tsc": "node_modules/.bin/tsc --project \"./tsconfig.build.json\""
+    "tsc": "node_modules/.bin/tsc --project \"./tsconfig.build.json\"",
+    "install": "npm build"
   },
   "repository": {
     "type": "git",
